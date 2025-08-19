@@ -1,7 +1,7 @@
 # Image Classifier with Machine Learning
 
 
-Thanks to Dhaval Sir for this project, checkout his Youtube Channel: [CodeBasics](https://www.youtube.com/@codebasics)
+Special Thanks to Dhaval Sir, checkout his Youtube Channel: [CodeBasics](https://www.youtube.com/@codebasics)
 
 
 In this project i have used SVM as the accuracy of SVM was around 82%.

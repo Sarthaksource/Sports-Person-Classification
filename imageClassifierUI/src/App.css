@@ -1,0 +1,57 @@
+.container {
+  max-width: 100%;
+}
+
+.navbar {
+  margin: 20px;
+}
+
+.card-wrapper {
+  margin-bottom: 20px;
+}
+
+.custom-circle-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #ccc;
+  overflow: hidden;
+}
+
+.custom-circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.dropzone:hover {
+  background: #f1f1f1;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#classTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#classTable th, #classTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#classTable th {
+  background-color: #f2f2f2;
+}

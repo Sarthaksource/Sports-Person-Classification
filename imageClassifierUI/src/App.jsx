@@ -28,7 +28,7 @@ export default function App() {
   const handleClassify = async () => {
     if (!file) return;
     try {
-      const response = await fetch("http://127.0.0.1:8000/classify_image", {
+      const response = await fetch("/api/classify_image", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams({ image_data: file })
@@ -89,7 +89,7 @@ export default function App() {
               <div {...getRootProps({ className: "dropzone p-4 text-center" })}>
                 <input {...getInputProps()} />
                 {file ? (
-                  <img src={file} alt="preview" width="120" height="120" />
+                  <img src={file} alt="preview" height="120" />
                 ) : (
                   <p>Drop file here or click to upload</p>
                 )}

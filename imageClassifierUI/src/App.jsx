@@ -89,7 +89,7 @@ export default function App() {
               <div {...getRootProps({ className: "dropzone p-4 text-center" })}>
                 <input {...getInputProps()} />
                 {file ? (
-                  <img src={file} alt="preview" height="120" />
+                  <img src={file} alt="preview" width="120" height="120" />
                 ) : (
                   <p>Drop file here or click to upload</p>
                 )}

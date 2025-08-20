@@ -28,7 +28,7 @@ export default function App() {
   const handleClassify = async () => {
     if (!file) return;
     try {
-      const response = await fetch("/api/classify_image", {
+      const response = await fetch("http://127.0.0.1:8000/classify_image", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams({ image_data: file })
